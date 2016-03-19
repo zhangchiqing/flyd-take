@@ -1,0 +1,29 @@
+{
+  "name": "flyd-take",
+  "version": "0.1.0",
+  "description": "Takes the first n values from the original stream, then ends.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangchiqing/flyd-take.git"
+  },
+  "keywords": [
+    "flyd",
+    "take"
+  ],
+  "author": "Leo Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangchiqing/flyd-take/issues"
+  },
+  "homepage": "https://github.com/zhangchiqing/flyd-take#readme",
+  "files": ["index.js"],
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "flyd": "^0.2.1",
+    "mocha": "^2.4.5"
+  }
+}
